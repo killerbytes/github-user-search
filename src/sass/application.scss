@@ -1,0 +1,94 @@
+@import '~foundation-sites/scss/foundation';
+
+/// include all modules of foundation
+@include foundation-everything;
+@import "components/loading";
+
+body{
+}
+header{
+  .fa-github{
+    margin-right: 5px;
+  }
+}
+h1,h2,h3{
+  margin: 0;
+}
+h1{
+  font-size: 28px;
+}
+h2{
+  font-size: 22px;
+}
+h3{
+  font-size: 20px;
+}
+h4{
+  font-size: 16px;
+}
+.container{
+  padding-top: 1rem;
+}
+.search-item{
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 5px;
+  &:hover{
+    background-color: #DDD;
+
+  }
+  .avatar{
+    width: 80px;
+    height: 80px;
+    img{
+      width: 100%;
+    }
+  }
+}
+
+.search-bar{
+  input{
+    padding: 1rem;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+}
+
+.avatar{
+  margin-bottom: 1rem;
+  img{
+    width: 100%;
+  }
+}
+.avatar+.info{
+  padding-left: 1rem;
+}
+.callout{
+  margin-top: .5rem;
+  .stat{
+    font-size: 28px;
+  }
+}
+
+.repo-list{
+  li{
+    border-bottom: 1px solid #DDD;
+    &:hover{
+      background-color: #DDD;
+    }
+    padding: 1rem;
+    p{
+      margin: 0;
+    }
+  }
+}
+.list-inline{
+  @extend .no-bullet;
+  li{
+    display: inline-block;
+    margin-right: 1rem;
+  }
+}
+.summary{
+  font-size: 12px;
+}
