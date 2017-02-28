@@ -10,7 +10,7 @@ export default function reducer(state=initialState, action) {
 
     switch (action.type) {
       case "CLEAR_USERS": {
-        return {...state, fetching: false, users: {items: []}}
+        return {...initialState}
       }
       case "RECEIVE_USER": {
         return {...state, fetching: false, user: action.payload }
