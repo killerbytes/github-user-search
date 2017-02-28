@@ -5,9 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base public --inline --hot",
-    "start": "./node_modules/.bin/webpack-dev-server --content-base src --progress --hot --inline",
-    "build": "./node_modules/.bin/webpack-dev-server --content-base src"
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base public --inline --hot"
   },
   "author": "",
   "license": "ISC",
