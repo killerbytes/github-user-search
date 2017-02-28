@@ -23,8 +23,8 @@ function errorDispatcher(response){
 
 let client_id = '13be6d59c325d795e2b5';
 let client_secret = '47cb7f3e73690bda69690f5f6f6a52e9fc15eb35'
-let limit = `?client_id=${client_id}&client_secret=${client_secret}`;
-// let limit = '';
+// let limit = `?client_id=${client_id}&client_secret=${client_secret}`;
+let limit = '';
 
 const API = {
 	fetch: (url) => {
