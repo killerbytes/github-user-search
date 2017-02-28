@@ -4,8 +4,9 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
+    "build": "node build.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base public --inline --hot",
     "start": "./node_modules/.bin/webpack-dev-server --content-base src --progress --hot --inline"
   },
   "author": "",

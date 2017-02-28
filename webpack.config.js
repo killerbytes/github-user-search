@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
   context: __dirname + "/src",
   devtool: debug ? "inline-sourcemap" : null,
-  entry: "./js/app.js",
+  entry: "./js/index.js",
   module: {
     loaders: [
       { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&mimetype=application/font-woff" },
